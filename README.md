@@ -26,7 +26,7 @@ Easy! You just updated your repos.
 
 ### What if I want to install a package?
 
-Create use this then
+Use this then
 
 ```Python
 apt_in = Apt(option="in", assume_yes=False)
@@ -40,7 +40,9 @@ apt_in.change("gimp")
 
 That installs gimp.
 
-If you want to remove a package it's the same syntax as before but pass "rm" to option argument instead. 
+If you want to remove a package it's the same syntax as before but pass "rm" to option argument instead.
+
+For multiple packages pass a string like this "package1 package2 package3"
 
 ### What if I don't want confirmation?
 
